@@ -1,0 +1,14 @@
+secretsprovider: awskms://alias/pulumi-custom-secrets-provider
+encryptedkey: AQICAHgmK0723TdbIS0yUhPd7J4GWRio9RgvG/bmO9jKzIP0/QG8tLZMrxd7DNZWN56oDV40AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM3DvCaCNiZVNyBA/FAgEQgDv5PVT+GxqY3RgUuenaWssyAzP1i+lXIfNjCNJwMKx+vKTxO4uQ0npYDq/Ed/cJSvQyQKsySMP8VViPkQ==
+config:
+  aws:region: eu-central-1
+  pulumi-first-look:api_key:
+    secure: v1:/VN8wTwCdCkCPPHl:3oyfYvHRkD+W1C8s+S0iu5svk8gM
+  pulumi-first-look:cidr:
+    - 10.0.0.0/24
+    - 10.0.1.0/24
+  pulumi-first-look:custom:
+    structure:
+      - value
+  pulumi-first-look:secret:
+    secure: v1:6HKJsBTchJZ2cqen:E/nXF2dbSGREuPR5xFrXd7zUeK3d

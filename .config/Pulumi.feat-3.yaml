@@ -1,0 +1,12 @@
+config:
+  aws:region: eu-central-1
+  pulumi-first-look:api_key:
+    secure: AAABAB7/xL7A8i/j0qAhIy5Lt5r7Lwzr7lBHdhWs0PviOKSWcw==
+  pulumi-first-look:cidr:
+    - 10.0.0.0/24
+    - 10.0.1.0/24
+  pulumi-first-look:custom:
+    structure:
+      - value
+  pulumi-first-look:secret:
+    secure: AAABAGJPocyX5DiV7fEE79okYtGsobQWSe2h9z4Zp9BHks88sg==

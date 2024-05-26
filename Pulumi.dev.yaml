@@ -1,8 +1,0 @@
-config:
-  aws:region: us-east-1
-  pulumi-first-look:custom:
-    structure:
-      - value
-  pulumi-first-look:key: value
-  pulumi-first-look:secret:
-    secure: AAABAJxreEXBclQw3vAxnzio5aXnkUccW2Ko1u93QMhqZtX4Kg==

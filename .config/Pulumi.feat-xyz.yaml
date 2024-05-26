@@ -1,0 +1,6 @@
+encryptionsalt: v1:APfp0UDr4WE=:v1:LarcigOINaz0tsL2:R0oNlyNqRMWGAftzIcpoxjkRBFDMyA==
+config:
+  pulumi-first-look:api_key:
+    secure: v1:tV+sCBXtPBHfmX01:9apM0PX6XuQKDMEq1QSE85OyJSyt
+  pulumi-first-look:secret:
+    secure: v1:emNSzdEHzmFD8+sX:2I9D//it3J+LFJj5iRJuQL0CmQGt

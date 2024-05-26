@@ -1,7 +1,14 @@
 name: pulumi-first-look
 runtime: nodejs
 description: A minimal AWS TypeScript Pulumi program
+main: src/index.ts
+stackConfigDir: .config
 config:
-  pulumi:tags:
-    value:
-      pulumi:template: ""
+  api_key:
+    type: string
+    secret: true
+  cidr:
+    type: array
+    items:
+      type: string
+    default: ['10.0.0.0/24']

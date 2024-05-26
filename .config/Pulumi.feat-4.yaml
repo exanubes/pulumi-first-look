@@ -1,0 +1,17 @@
+encryptionsalt: v1:eg1q/fyiVss=:v1:gQkIZzus6uoRAPFM:cJNBBnaqLCV3BK6fBPyPdq2dhAsqqQ==
+config:
+  aws:region: eu-central-1
+  pulumi-first-look:api_key:
+    secure: v1:f562WkSHbAy8UeCR:Nhc2pgObmlshbJTTEhhp5tpiR1xE
+  pulumi-first-look:cidr:
+    - 10.0.0.0/24
+    - 10.0.1.0/24
+  pulumi-first-look:custom:
+    structure:
+      - value
+  pulumi-first-look:secret:
+    secure: v1:TCHmTJ0xahu8DCEG:OsemUO0VFAmqMUjIPumZy72W9GhR
+  pulumi:disable-default-providers:
+    - '*'
+  pulumi:tags:
+    environment: dev
